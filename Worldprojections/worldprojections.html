@@ -9,10 +9,10 @@
     <h1>In this project I learned how to display images in different projections:</h1>
     
     <!-- <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2> -->
-    <p>I displayed the world map using different projections in QGIS by adjusting the EPSG settings. 
+    <p>I displayed the world map using different projections in QGIS by first adjusting the EPSG settings. 
     I then ran the Indicatrix Mapper plugin over the vector data. These indicatrices are used to show the pattern of 
-    distortion due to the use of the WGS84 geographic projection. All of these maps were created using the World 
-    Projection data provided on Sakai. After each projection was created I exported them as .png files.</p>
+    distortion due to the use of the WGS84 geographic projection. Each projection has a different pattern of distortion. All of these maps were created using the World 
+    Projection data provided on Sakai. After each projection was created I exported them as .png files in order to include them on this site.</p>
     
     <h2>Sphere Projection</h2>
     <h3>The sizes and shapes on this projection seem fairly accurate until you get closer to the poles where there is some distortion.</h3>
@@ -34,13 +34,8 @@
     <a href="./maps/PseudoMercator.png">
     <img src="./maps/PseudoMercator.png" alt="Cylindrical" width='500px'>
     </a>
-    <h2>Conical Projection</h2>
-    <h3>Part of the Earth appears to be missing and the areas at the poles are greatly distorted.</h3>
-    <a href="./maps/ConicalProjection.png">
-    <img src="./maps/ConicalProjection.png" alt="Cylindrical" width='500px'>
-    </a>
     <h2>Azimuthal Equidistant Projection</h2>
-    <h3>Similarly does a poor job of portraying areas and there is a lot of stretching of Antarctica.</h3>
+    <h3>Similarly does a poor job of portraying areas and there is a lot of stretching and distortion at the poles, especially of Antarctica.</h3>
     <a href="./maps/AzimuthalEquidistantProjection.png">
     <img src="./maps/AzimuthalEquidistantProjection.png" alt="Cylindrical" width='500px'>
     </a>
@@ -48,6 +43,11 @@
     <h3>Does a decent job of preserving area, especially at the poles as compared to other projections. However, this projection does have large amounts of distortion, but mainly in areas over the ocean.</h3>
     <a href="./maps/PolyconicProjection.png">
     <img src="./maps/PolyconicProjection.png" alt="Cylindrical" width='500px'>
+    </a>
+    <h2>Projection of World From Space</h2>
+    <h3>I wanted to include one projection with little to no distortion, which the view of Earth from space displays. However, unfortunately the entire globe cannot be seen in this projection, making it impractical as a flat map.</h3>
+    <a href="./maps/WorldfromSpace.png">
+    <img src="./maps/WorldfromSpace.png" alt="Cylindrical" width='500px'>
     </a>
     <!-- <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2> -->
     <!-- <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3> -->
